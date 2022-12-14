@@ -12,7 +12,7 @@ import { CarteComponent } from './carte/carte.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
     CarteComponent
   ],
   imports: [
