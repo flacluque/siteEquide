@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div>
+
+    
+
+    <nav>
+        <div class="container">
+            
+        <a href="#">Shiatsu</a>
+        <a href="#">Ostéopathe</a>
+        <a href="#">Maréchal</a>
+        <a href="#">Vétérinaire</a>
+        <a href="#">Dentiste</a>
+        <a href="#">Masseur</a>
+        <a href="#">Équarisseur</a>
+        <div class="animation start-shiatsu"></div>
+        
+        
+        <div class="menue">
+            <button mat-button [matMenuTriggerFor]="menu">
+                <mat-icon >list</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item><a href="#" text-decoration="none">Shiatsu</a></button>
+                <button mat-menu-item><a href="#">Ostéopathe</a></button>
+                <button mat-menu-item><a href="#">Maréchal</a></button>
+                <button mat-menu-item><a href="#">Vétérinaire</a></button>
+                <button mat-menu-item><a href="#">Dentiste</a></button>
+                <button mat-menu-item><a href="#">Masseur</a></button>
+                <button mat-menu-item><a href="#">Équarisseur</a></button>
+            </mat-menu>
+        </div>
+    </div>
+    </nav>
+</div>
