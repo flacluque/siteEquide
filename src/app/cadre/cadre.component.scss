@@ -1,0 +1,29 @@
+/*.grid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 100px 500px 250px;
+    min-height: 100vh;
+    grid-gap: 10px;
+}*/
+
+.item {
+    font-family: impact;
+    color: #1d1d1d;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 5rem;
+    padding: 2rem 0;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: calc(25% - 2rem);
+    height: calc(25% - 2rem);
+    min-width: 300px;
+    min-height: 200px;
+}
