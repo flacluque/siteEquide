@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CarteComponent } from './carte/carte.component';
+import { CadreComponent } from './cadre/cadre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarteComponent
+    CarteComponent,
+    CadreComponent
   ],
   imports: [
     BrowserModule
