@@ -8,24 +8,44 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon'; 
 import { CarteComponent } from './carte/carte.component';
 import { CadreComponent } from './cadre/cadre.component';
-import { PageMetierComponent } from './page-metier/page-metier.component';
+import { ShiatsuComponent } from './shiatsu/shiatsu.component';
+import { OsteopatheComponent } from './osteopathe/osteopathe.component';
+import { MarechalComponent } from './marechal/marechal.component';
+import { VeterinaireComponent } from './veterinaire/veterinaire.component';
+import { DentisteComponent } from './dentiste/dentiste.component';
+import { MasseurComponent } from './masseur/masseur.component';
+import { EquarisseurComponent } from './equarisseur/equarisseur.component';
+import { Routes, RouterModule } from '@angular/router';
 
 
+const routes: Routes = [
+  { path: '', component: AppComponent }
+  
+];
 @NgModule({
   declarations: [
     AppComponent,
     CadreComponent,
     HeaderComponent,
     CarteComponent,
-    PageMetierComponent
+    ShiatsuComponent,
+    OsteopatheComponent,
+    MarechalComponent,
+    VeterinaireComponent,
+    DentisteComponent,
+    MasseurComponent,
+    EquarisseurComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }

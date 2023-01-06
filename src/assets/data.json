@@ -1,0 +1,74 @@
+[
+    {
+        "metier": "Osthéopathe Equin",
+        "genre": "Madame",
+        "nom": "Frey",
+        "prenom": "Camille",
+        "tel": "0627174658",
+        "mail": "camillefrey.osteoanimalier@yahoo.com",
+        "adresse": "1 rue de France 13580 La Fare les oliviers"
+    },
+    {
+        "metier": "Osthéopathe Equin",
+        "genre": "Madame",
+        "nom": "Toran",
+        "prenom": "Camille",
+        "tel": "0645925201",
+        "mail": "cam.toran@yahoo.fr",
+        "adresse": "560 Route de Lambesc 13330"
+    },
+    {
+        "metier": "Osthéopathe Equin",
+        "genre": "Madame",
+        "nom": "Bernard",
+        "prenom": "Anais",
+        "tel": "0644329740",
+        "mail": "osteopathe.anais@outlook.fr",
+        "adresse": "Route d’Arles quartier barcarin 13129 Salin de Giraud "
+    },
+    {
+        "metier": "Osthéopathe Equin",
+        "genre": "Madame",
+        "nom": "Delsol",
+        "prenom": "Eugénie ",
+        "tel": 601027837,
+        "mail": "eugdel5@gmail.com",
+        "adresse": "145 Traverse Montfort, 13810 Eygalières "
+    },
+    {
+        "metier": "Maréchal",
+        "genre": "Monsieur",
+        "nom": "SOCCODATO ",
+        "prenom": "Philippe",
+        "tel": "0673845709",
+        "mail": "philippesoccodato@gmail.com",
+        "adresse": "108 allée Louis Jeanne-13420 GEMENOS"
+    },
+    {
+        "metier": "Shiatsu Equin",
+        "genre": "Madame",
+        "nom": "Pitrat ",
+        "prenom": "Mélanie ",
+        "tel": "0618025946",
+        "mail": "melanie.pitrat@outlook.fr",
+        "adresse": "Chemin du mas de l’air 13440 CABANNES "
+    },
+    {
+        "metier": "Osthéopathe Equin",
+        "genre": "Madame",
+        "nom": "Ravaux",
+        "prenom": "Maëlle",
+        "tel": 699736053,
+        "mail": "maelle.osteoanimale@gmail.com",
+        "adresse": "Chemin de Sénas, 13370 Mallemort"
+    },
+    {
+        "metier": "Osthéopathe Equin",
+        "genre": "Monsieur",
+        "nom": "NAVARRO",
+        "prenom": "Jimmy",
+        "tel": "0649872398",
+        "mail": "jimmyosteo@gmail.com",
+        "adresse": "33 Av Général de Gaulle Lot l'Espacier 13550 NOVES"
+    }
+]
