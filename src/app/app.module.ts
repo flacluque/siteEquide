@@ -8,6 +8,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon'; 
 import { CarteComponent } from './carte/carte.component';
 import { CadreComponent } from './cadre/cadre.component';
+import { PageMetierComponent } from './page-metier/page-metier.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CadreComponent } from './cadre/cadre.component';
     AppComponent,
     CadreComponent,
     HeaderComponent,
-    CarteComponent
+    CarteComponent,
+    PageMetierComponent
   ],
   imports: [
     BrowserModule,
