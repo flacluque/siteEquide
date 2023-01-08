@@ -16,6 +16,7 @@ import { DentisteComponent } from './dentiste/dentiste.component';
 import { MasseurComponent } from './masseur/masseur.component';
 import { EquarisseurComponent } from './equarisseur/equarisseur.component';
 import { Routes, RouterModule } from '@angular/router';
+import { TestCardComponent } from './test-card/test-card.component';
 
 
 const routes: Routes = [
@@ -34,7 +35,8 @@ const routes: Routes = [
     VeterinaireComponent,
     DentisteComponent,
     MasseurComponent,
-    EquarisseurComponent
+    EquarisseurComponent,
+    TestCardComponent
   ],
   imports: [
     BrowserModule,
