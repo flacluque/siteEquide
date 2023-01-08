@@ -23,5 +23,16 @@ fieldset
 }
 
 form{
-  margin-top: 80px;
+  margin-top: 115px;
 }
+
+@media screen and (max-width: 600px) {
+  .legend1 {
+      font-size: 40px;
+   }
+  
+  
+  
+  
+  }
+

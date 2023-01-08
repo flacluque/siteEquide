@@ -6,7 +6,18 @@
 }
 
 .item{
-    flex: 1 1 50px
+    flex: 1 1 50px;
+    margin-left: 50px;
+    
 }
 
 
+@media screen and (max-width: 600px) {
+
+    .item{
+        margin-left: 50px;
+    }
+}
+
+
+  

@@ -1,14 +1,14 @@
 @media screen and (min-width: 600px) {
     nav{
-        height: 5rem;
+        height: 7rem;
     }
     
     nav .container{
         top: 0;
         position: fixed;
         width: 100%;
-        height: 5rem;
-        background-color: #34495e;
+        height: 7rem;
+        background-color: #2e292b;
         font-size: 0;
         display: flex;
         justify-content: end;
@@ -78,43 +78,43 @@
     nav .start-shiatsu, a:nth-child(1):hover~.animation{
         width: 7rem;
         right: 48.875rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     nav .start-osteopathe, a:nth-child(2):hover~.animation{
         width: 8.125rem;
         right: 41rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     nav .start-marechal, a:nth-child(3):hover~.animation{
         width: 7rem;
         right: 33.125rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     nav .start-veterinaire, a:nth-child(4):hover~.animation{
         width: 8rem;
         right: 24.5rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     nav .start-dentiste, a:nth-child(5):hover~.animation{
         width: 6.5rem;
         right: 18.125rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     nav .start-masseur, a:nth-child(6):hover~.animation{
         width: 6.5rem;
         right: 10.5rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     nav .start-equarisseur, a:nth-child(7):hover~.animation{
         width: 8.6rem;
         right: 1rem;
-        background-color: #1abc9c;
+        background-color: #938A8B;
     }
 
     body{
@@ -138,22 +138,23 @@
         
         top: 0;
         position: fixed;
-        height: 4rem;
+        height: 5rem;
         display: flex;
         justify-content: end;
         align-items: center;
-        background-color: #34495e;
+        background-color: #2e292b;
         width: 100%;
+        z-index: 9999;
     }
 
     a{
         text-decoration: none;
         text-transform: uppercase;
-        color: #34495e;
+        color: #2e292b;
     }
 
     .menue{
-        margin-right: 0.5rem;
+        margin-right: 0.5rem;   
     }
   }
 
